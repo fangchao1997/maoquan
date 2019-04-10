@@ -1,0 +1,9 @@
+<!--pages/account/account.wxml-->
+<view>
+  <view class='site'></view>
+  <view class='merchandise'><view></view></view>
+  <view class='message'><textarea placeholder='买家留言'></textarea></view>
+  <view class='discount'>
+    <text class='character'>优惠券</text>
+  </view>
+</view>

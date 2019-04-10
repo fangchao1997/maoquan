@@ -1,0 +1,221 @@
+[
+        {
+          "name":"猫咪食物",
+          "datu":"images/catfood_23.jpg",
+          "id":1,
+          "xiaotu":[
+            {
+              "nameage":"全部",
+              "xiaot": "images/catplay_07.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "猫粮",
+              "xiaot": "images/catfood_03.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "猫罐头",
+              "xiaot": "images/catfood_05.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "猫零食",
+              "xiaot": "images/catfood_10.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "营养补品",
+              "xiaot": "images/catfood_12.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            }
+
+          ]
+        },
+         {
+          "name": "猫咪清洁",
+          "datu": "images/catclear_03.jpg",
+          "id": 2,
+          "xiaotu": [
+            {
+              "nameage": "全部",
+              "xiaot": "images/catplay_07.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "猫砂",
+              "xiaot": "images/catclear_07.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "猫砂盆",
+              "xiaot": "images/catclear_09.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "洗护美容",
+              "xiaot": "images/catclear_14.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            }
+          ]
+        },
+        {
+          "name": "猫咪用品",
+          "datu": "images/catyong_03.jpg",
+          "id": 2,
+          "xiaotu": [
+            {
+              "nameage": "全部",
+              "xiaot": "images/catplay_07.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "猫窝",
+              "xiaot": "images/catyong_09.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "饮食用具",
+              "xiaot": "images/catyong_11.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "护理用具",
+              "xiaot": "images/catyong_16.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "出行箱包",
+              "xiaot": "images/catyong_17.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            }
+          ]
+        },
+        {
+          "name": "抓板玩具",
+          "datu": "images/catplay_03.jpg",
+          "id": 2,
+          "xiaotu": [
+            {
+              "nameage": "全部",
+              "xiaot": "images/catplay_07.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "猫抓板",
+              "xiaot": "images/catyplay_09.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "逗猫棒",
+              "xiaot": "images/catplay_11.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "猫薄荷玩具",
+              "xiaot": "images/catplay_16.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            },
+            {
+              "nameage": "其他玩具",
+              "xiaot": "images/catplay_17.jpg",
+              "neir":[
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"},
+                      {"name_stop":"猫粮"}
+                  ]
+            }
+          ]
+        }
+      ]

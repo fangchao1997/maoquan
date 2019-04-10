@@ -1,0 +1,56 @@
+<view class='cart'>
+<view  wx:for="{{carts}}" wx:key="{{index}}">
+  <view class='commodity'>
+    
+     <icon wx:if="{{item.selected}}" type="success" color="red" bindtap="selectList" data-index="{{index}}" style='margin-left: 10rpx;' />
+        <icon wx:else type="circle" bindtap="selectList" data-index="{{index}}"  style='margin-left: 10rpx;'/>
+
+    <view class='commodity_img'></view>
+    <view class='particulars'>
+      <view class='introduce'><text>{{item.title}}</text></view>
+      <view class='quantity'>
+        <view class='quantity_price'><text>￥{{item.price}}</text> </view>
+       <view class='quantity_commodity'>
+          <view class='subtract' bindtap='jian' data-index="{{index}}">-</view>
+          <view class='individual'>{{item.num}}</view>
+          <view class='plus' bindtap='jia' data-index="{{index}}">+</view>
+          <text class='delete' bindtap="deleteList" data-index="{{index}}">删除</text>
+        </view>
+        
+      </view>
+    </view>
+    
+  </view>
+</view>
+
+
+
+
+
+  <view class='total'>
+    <!-- 全选框 -->
+    <view class='check_box' style='margin-left: 10rpx;'>
+     <icon wx:if="{{selectAllStatus}}" type="success_circle" color="red" bindtap="selectAll"/>
+    <icon wx:else type="circle" color="red" bindtap="selectAll"/>
+
+
+      
+      <text class='check_text'>全选</text>
+    </view>
+    <!-- 总价和结算按钮 -->
+    <view class='account'>
+      <view class='account_text'>
+        <view class='save'>
+          已节省:<text>￥0.00</text>
+        </view>
+        <view class='summation'>
+          合计:<text class='red'>￥{{totalPrice}}</text>
+        </view>
+      </view>
+      <view wx:if="{{selectAllStatus}}" class='account_btn1' bindtap='skip'>去结算</view>
+      <view wx:else  class='account_btn'>去结算</view>
+      
+    </view>
+  </view>
+
+</view>

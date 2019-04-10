@@ -1,0 +1,141 @@
+
+/* pages/cart/cart.wxss */
+page{
+  height: 100%;
+}
+view {
+  box-sizing: border-box;
+}
+
+.cart{
+  width: 100%;
+ height: 100%;
+ 
+  background: #f4f4f4;
+  
+}
+.total{
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0rpx;
+  left:0;
+  right:0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.check_box{
+  align-items: center;
+  display: flex;
+}
+.check{
+  margin-left: 17rpx;
+}
+
+.check_text{
+  font-size: 30rpx;
+  margin-left: 21rpx;
+}
+.account{
+  align-items: center;
+  display: flex;
+}
+.account_btn{
+  width: 236rpx;
+  height: 100rpx;
+  background: #cccccc;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #969696;
+}
+.account_btn1{
+  width: 236rpx;
+  height: 100rpx;
+  background:red;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+.account_text{
+  width: 230rpx;
+}
+.save{
+  font-size: 20rpx;
+  color: #9e9e9e;
+}
+.summation{
+  font-size: 30rpx;
+}
+.red{
+  color: #e84231;
+  
+}
+.commodity{
+  width: 100%;
+  height: 214rpx;
+  background: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: space-between
+}
+
+
+.commodity_img{
+  width: 178rpx;
+  height: 179rpx;
+  border: 1px solid #666;
+}
+.particulars{
+  width: 446rpx;
+  height: 214rpx;
+}
+.introduce{
+  font-size: 30rpx;
+  margin-top: 15rpx;
+}
+.quantity{
+  width: 446rpx;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 47rpx;
+  
+}
+.quantity_price{
+  font-size: 35rpx;
+  color: #f00;
+}
+.quantity_commodity{
+  align-items: center;
+  display: flex;
+}
+.individual{
+  width: 58rpx;
+  height: 58rpx;
+  border-top: 1rpx solid #666;
+  border-bottom: 1rpx solid #666;
+  text-align: center;
+}
+.subtract{
+  width: 58rpx;
+  height: 58rpx;
+  border: 1rpx solid #666;
+  text-align: center;
+}
+.plus{
+  width: 58rpx;
+  height: 58rpx;
+  border: 1rpx solid #666;
+  text-align: center;
+ 
+}
+.delete{
+  font-size: 27rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 30rpx;
+  color: #9e9e9e;
+}
